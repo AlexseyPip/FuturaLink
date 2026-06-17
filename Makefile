@@ -1,4 +1,4 @@
-ifneq ($(OS),Windows_NT)
+ifneq ($(OS),Windows_NT) 
     CXX = x86_64-w64-mingw32-g++-win32
     WINDRES = x86_64-w64-mingw32-windres
     CXXFLAGS = -Wall -O2 -std=c++11 -DWIN32_LEAN_AND_MEAN -mwindows
